@@ -1,0 +1,22 @@
+
+
+
+  #background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/img2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+   
+  }
+
+  #mainContent{
+    height: 800px;
+    width: 800px;
+    background-color: black;
+    opacity: 0.6;
+  }

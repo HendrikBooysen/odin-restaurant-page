@@ -4,7 +4,10 @@ const preload =() => {
 
 const content = document.querySelector("#content");
 
-content.innerHTML = ` <h1>"Hello World"</h1> `;
+const background= document.createElement('div');
+background.setAttribute('id','background');
+content.appendChild(background);  
+    
 
 };
 
